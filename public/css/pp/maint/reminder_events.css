@@ -1,0 +1,182 @@
+.reminder-events.tab-container {
+    padding: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(204, 204, 204);
+    width: 97%;
+    margin: 10px auto;
+    padding: 1%
+}
+
+.reminder-events.tab-container em {
+    font-style: italic;
+}
+
+.reminder-events.tab-container > p {
+    margin-bottom: 1em;
+}
+
+.reminder-events.heading {
+    color: #264489
+}
+
+.reminder-events.container {
+    background-color: #F2F2F2;
+    border: solid 1px #C0C0C0;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.196) 0px 0px 3px 0px;
+    position: relative;
+}
+
+.reminder-events.container .info-message {
+    font-weight: bold;
+    display: block;
+}
+
+.reminder-events.tab-container .credits-warning {
+    padding: 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-color: #FFEEEE;
+    border: solid 1px #FF6666;
+    color: #DD0000;
+}
+
+.reminder-events.container .info-message .expand-button {
+    display: inline;
+    text-align: center;
+    float: right;
+    margin-top: -5px;
+    width: 20px;
+}
+
+.reminder-events.container .expandable {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: solid 1px #ccc;
+}
+
+.reminder-events.action,
+.reminder-events.action tbody {
+    width: 703px;   
+}
+.reminder-events.action td input:not([type="checkbox"]),
+.reminder-events.action td select {
+    width: 95%;
+}
+
+.reminder-events.action td.active {
+    width: 10%;
+    line-height: 27px;
+    cursor: pointer !important;
+}
+
+.reminder-events.action td.active * {
+    cursor: pointer !important;
+}
+
+.reminder-events.action td.period {
+    width: 8%;
+}
+
+.reminder-events.action td.period input {
+    text-align: center;
+}
+
+.reminder-events.action td.interval {
+    width: 12%
+}
+
+.reminder-events.action td.polarity {
+    width: 12%;
+}
+
+.reminder-events.action td.description {
+    width: 63%;
+    text-indent: 1em;
+}
+
+.reminder-events.action td.description .help {
+    float: right;
+    color: #999;
+    cursor: help;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+}
+
+.reminder-events.action td.description .help img {
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin-top: -3px;
+    margin-left: 5px;
+    opacity: 0.7;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+}
+
+.reminder-events.action tr:not([disabled]) td.description .help:hover {
+    color: #444;
+}
+.reminder-events.action tr:not([disabled]) td.description .help:hover img {
+    opacity: 1;
+}
+
+.reminder-events.action td.template {
+    width: 100%;
+}
+
+.reminder-events.action td.template textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+.reminder-events.action tr:nth-child(even):not(:last-child) {
+    border-bottom: solid 1px #ccc;
+}
+
+.reminder-events.action tr:nth-child(2n+1) > td {
+    padding-top: 8px;
+}
+
+.reminder-events.action tr:nth-child(even):not(:last-child) td.template {
+    padding-bottom: 8px;
+}
+
+.reminder-events.action tr > td {
+    transition: opacity .3s;
+    -webkit-transition: opacity .3s;
+    -moz-transition: opacity .3s;
+}
+
+.reminder-events.action tr[disabled] > td {
+    opacity: 0.6;
+}
+
+.reminder-events.action tr[disabled] > td:not(:first-child) * {
+    cursor: not-allowed !important;
+}
+
+.reminder-events.button-container {
+    text-align: center;
+}
+
+.reminder-events.help-dialog {
+    display: none;
+}
+
+.reminder-events.help-dialog table {
+    width: 450px;
+}
+
+.reminder-events.help-dialog table td {
+    padding: 7px;
+}
+
+.reminder-events.help-dialog td:first-child {
+    background-color: #eee;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+div.ui-dialog div.ui-buttonset {
+	/* Radio button sets span the entire width of the dialog */
+	clear: both;
+}
+
+/* We have limited space in dialogs. We should make sure our radio buttons fit. */
+div.ui-dialog div.ui-buttonset label.ui-button {
+	/* Display radio buttons underneath earchother */
+	display: block;
+	margin-top: 0.25em;
+}

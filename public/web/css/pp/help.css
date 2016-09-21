@@ -1,0 +1,193 @@
+/*
+	All style classes related to the help section
+
+	Last change:	22/10/2012
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Copyright:		2012; Parallel Software
+*/
+
+#modalOverlay {
+	width : 100%;
+	height : 100%;
+	background-color : #000;
+	opacity : 0.4;
+	z-index	: 1000;
+	position : fixed;
+	top : 0;
+	left : 0
+}
+
+#helpModal {
+	width : 900px;
+	min-height : 600px;
+	background-color : #FFF;
+	z-index	: 1001;
+	position : fixed;
+	border-radius : 3px;
+	-moz-border-radius : 3px;
+	-webkit-border-radius : 3px;
+	box-shadow : 0 0 25px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow : 0 0 25px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow : 0 0 25px rgba(0, 0, 0, 0.2);
+	text-align : left;
+	font-size : 12px
+}
+
+#helpModal .header {
+
+	height : 35px;
+	width : 100%;
+	background : -o-linear-gradient(top, #fcfff4 0%,#f2f2f2 40%,#e5e5e5 100%);
+	background : -moz-linear-gradient(top, #fcfff4 0%,#f2f2f2 40%,#e5e5e5 100%);
+	background : -webkit-linear-gradient(top, #fcfff4 0%,#f2f2f2 40%,#e5e5e5 100%);
+	background : linear-gradient(top, #fcfff4 0%,#f2f2f2 40%,#e5e5e5 100%);
+	border-top-left-radius : 3px;
+	border-top-right-radius : 3px;
+	border-bottom : solid 1px #D7D7D7;
+	color : #444;
+	line-height : 35px;
+	font-weight	: bold;
+	font-size : 12.5px;
+	text-align : center;
+	box-shadow : 0 0 6px rgba(0,0,0,0.2);
+	-moz-box-shadow : 0 0 6px rgba(0,0,0,0.2);
+	-webkit-box-shadow : 0 0 6px rgba(0,0,0,0.2)
+}
+
+#helpModal .header .minimize,  #helpModal .header .close, #helpModal .header .maximize {
+	float : right;
+	width : 20px;
+	height	: 20px;
+	margin-top : 10px;
+	margin-right : 7px;
+	text-align: center;
+	line-height : 20px
+}
+
+#helpModal .content {
+	padding	: 17px;
+	padding-top : 20px;
+	float : right;
+	position : relative;
+	width : 65%;
+	right : 0;
+	height: 100%;
+	background-color: #FFF;
+}
+
+#helpModal .navigation {
+	padding : 15px;
+	float : left;
+	position : relative;
+	width : 24%;
+	clear : right;
+	background-color : #FEFEFE;
+	border : solid 1px #DDD;
+	border-radius : 3px;
+	margin : 15px
+}
+
+#helpModal .navigation a {
+	color : #777;
+	width : 96%;
+	display	: block;
+	padding	: 5px 7px
+}
+
+#helpModal h4 {
+	font-size: 125%;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#helpModal h5 {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+#helpModal .content table.list {
+    padding: 15px 5px;
+    border: solid 1px #DDD;
+    border-radius: 3px;
+    width: 100%;
+}
+
+#helpModal .content table.list tr:not(:last-child) {
+    border-bottom: solid 1px #DDD;
+}
+
+#helpModal .content .list td:not(:last-child) {
+	padding: 8px 12px;
+}
+
+#helpModal .content .list td:first-child {
+	width: 60%;
+	fotn-weight: 700 !important;
+}
+
+#helpModal .content table.list td:last-child {
+	text-align: right;
+}
+
+#helpModal ul li {
+	list-style:disc;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+#helpModal div.image {
+	border: solid 1px #DDD;
+	box-shadow: 0px 1px 7px rgba(0,0,0,0.2);
+	margin: 0 auto;
+	height: 220px;
+	overflow: hidden
+}
+
+#helpModal div.image img {
+	max-width: 100%;
+}
+
+#helpModal li a {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#helpModal li small {
+	font-size: small;
+}
+#helpModal .video-overlay {
+	width : 100%;
+    height : 100%;
+    background-color : #000;
+    opacity : 0.4;
+    z-index : 1000;
+    position : fixed;
+    top : 0;
+    left : 0;
+    display: none;
+}
+
+#helpModal .video-overlay-content {
+	background-color : #FFF;
+    z-index : 1003;
+    position : fixed;
+    border-radius : 3px;
+    -moz-border-radius : 3px;
+    -webkit-border-radius : 3px;
+    box-shadow : 0 2px 25px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow : 0 2px 25px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow : 0 2px 25px rgba(0, 0, 0, 0.35);
+    text-align : left;
+    font-size : 12px;
+    display: none;
+    width: 640px;
+    height: 395px;
+    margin-left: 126.25px;
+}
+
+#helpModal  .content .float-right {
+	float: right;
+	width: 100px;
+	text-align: right;
+	margin-top: -22px;
+}

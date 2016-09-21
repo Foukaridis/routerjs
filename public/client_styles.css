@@ -1,0 +1,108 @@
+/***** Global Styles *****/
+body
+{
+    background: #dddddd;
+    text-align: center;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+    color: #3f3f3f;
+	background-image: url('images/background.jpg'); 
+    background-repeat: repeat-x;
+}
+a:link {
+	color:#262662;
+	text-decoration: none;
+}
+a:visited {
+	color:#262662;
+	text-decoration: none;
+}
+a:hover {
+	color:#262662;
+	font-weight: none;
+	text-decoration: none;
+}
+a:active {
+	color:#262662;
+	text-decoration: none;
+}
+.input_field {
+	width: 180px;
+}
+label {
+	font-size: 12px;
+	color: #211684;
+}
+/***** Page Layout Styles *****/
+#mainContainer { 
+	position: relative;
+	overflow: hidden;
+	width: 1020px; 
+	height: 686px;
+	margin-top: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+    border: none;
+	box-shadow: 0px 0px 6px #000080;
+	-moz-box-shadow: 0px 0px 6px #000080;
+	-webkit-box-shadow: 0px 0px 6px #000080;
+	background-color: #ffffff;
+	z-index: 1;
+}
+#contentsPane {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	background-color: transparent;
+	overflow: hidden;
+}
+/***** clients.html *****/
+#client_login {
+	position: relative;
+	top: 160px;
+	width: 545px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	border-top: 1px solid #211684;
+	border-bottom: 1px solid #211684;
+}
+
+#login_form{
+	color: #211684;
+}
+#err_msg {
+	height: 35px;
+	font-size: 12px;
+	color:#CC0000
+}
+#client_logo {
+	position: relative;
+	top: 150px;
+}
+#extra_info {
+	position: relative;
+	top: 180px;
+	font-size: 11px;
+	color: #262662;		
+}
+.error_message {
+	background-color: #E74A4A;
+    border: 1px solid #8E0B0B;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    cursor: help;
+    display: none;
+    font-size: 12px;
+    left: 400px;
+    margin-top: 0;
+    padding: 2px;
+    position: absolute;
+}
+.input_error {
+ 	border-color: red;
+    border-radius: 3px 3px 3px 3px;
+    border-width: 1px;
+    padding: 2px;
+}

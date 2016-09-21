@@ -1,0 +1,32 @@
+/*
+	Classes used for everything related to the web interface.
+
+	Last change:	22/10/2012
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Copyright:		2012, Parallel Software
+*/
+
+
+.candidate_more_info_element h5 {
+    border-bottom: 1px dashed gray;
+    font-size: inherit;
+    margin: 4px 0;
+    padding: 0;
+    width: 88%;
+}
+
+.candidate_more_info_element .candidate-search-heading {
+    font-size: 10px;
+}
+
+.candidate_more_info {
+    margin: -3px 0 10px;
+    width: 90%;
+}
+
+.candidate_name {
+    border-bottom: 2px solid gray;
+    font-weight: bold;
+    margin-bottom: 6px;
+    width: 90%;
+}

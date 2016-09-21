@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+table.db-diff-table {
+	border: #bb0000 1px solid; 
+	font-size: 8pt;
+    margin: 10px auto 10px auto;
+}
+
+table.db-diff-table thead {
+	background-color: #bb0000;
+}
+
+table.db-diff-table thead tr th {
+	font-size: 13px;
+	font-weight: 400;
+	color: #fff;
+	padding: 0.4em;
+}
+
+table.db-diff-table tbody tr.row-odd {
+	background-color: #eee;
+}
+
+table.db-diff-table tbody tr td {
+	padding: 0.2em 0.5em;
+}
+
+div#sql-commands {
+	width: 750px;
+    margin: 10px auto 10px auto;
+    font-size: 8pt;
+    border: #bb0000 1px solid;
+}
+
+div#sql-commands h2 {
+	margin-top: 0px;
+	background-color: #bb0000;
+	font-size: 13px;
+	font-weight: 400;
+	color: #fff;
+	padding: 0.4em;
+	clear: both;
+}
+
+div#sql-commands pre#execute {
+	overflow: auto;
+	padding: 0.3em 1em;
+}

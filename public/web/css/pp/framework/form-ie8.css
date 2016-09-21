@@ -1,0 +1,27 @@
+/*
+	Hacks for IE8 to render PP layout elements correctly.
+
+	Dear whomever is going to work on /this/ specific stylesheet.
+	Do not change this, these definitions should be as static as
+	something written in stone.
+
+	All rules within this stylesheet should have an \0/ escape
+	squance appended before the delimiter.
+
+	See:			http://css-tricks.com/how-to-create-an-ie-only-stylesheet/
+	Last change:	22/10/2012
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Copyright:		2012; Parallel Software
+*/
+
+.selector {
+	margin-top: -4px\0/;
+}
+
+table.tab_page_outer tr:first-child td {
+	vertical-align: middle\0/;
+}
+
+table.tab_page_outer table tr:first-child td {
+	vertical-align: baseline\0/;
+}

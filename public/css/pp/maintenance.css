@@ -1,0 +1,28 @@
+/*
+	This file holds all the style definitions for the
+	maintenance section.
+
+	Last change:	23/10/2012
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Copyright:		2012, Parallel Software
+*/
+
+input.access_date {
+    clear: none;
+    cursor: pointer;
+    width: 74px;
+}
+
+td.date_access {
+    border: 1px solid #E7E7E7;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.access_date {
+    cursor: pointer;
+}
+
+#consultant_logname {
+    width: 150px;
+}

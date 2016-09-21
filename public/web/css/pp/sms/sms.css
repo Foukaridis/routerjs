@@ -1,0 +1,13 @@
+/*
+	Classes used within SMS section
+
+	Last change:	22/10/2012
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Copyright:		2012, Parallel Software
+*/
+
+td.credit_low_warning {
+    color: #FF0000;
+    font-weight: bold;
+    vertical-align: top;
+}

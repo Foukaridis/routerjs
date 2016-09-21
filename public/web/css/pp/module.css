@@ -1,0 +1,10 @@
+/*
+	Everything that is modular on Placement Partner is defined
+	here. I.e.: Anything written as a plugin.
+
+	Last change:	23/10/2012
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Copyright:		2012, Parallel Software
+*/
+
+@import url('sms/quicksms.css');

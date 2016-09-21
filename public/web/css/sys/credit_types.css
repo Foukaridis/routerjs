@@ -1,0 +1,105 @@
+
+table[class^="credit"]  th {
+    text-align: left;
+}
+
+table[class^="credit"] th, table[class^="credit"] td {
+    font-size: 11px;
+    padding: 10px 8px;
+}
+
+table[class^="credit"] tr:first-child > td {
+    padding: 12px 8px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td:not(:first-child) {
+    border-top-left-radius: 0px;
+}
+
+
+td:not(:last-child) {
+    border-top-right-radius: 0px;
+}
+
+.credit tr:nth-child(2n+1) {
+    background-color: #EEE;
+}
+
+table[class^="credit"] tr td:nth-child(3):not(.box_header) {
+    text-indent: 12px;
+}
+
+table.credit {
+    border: solid 1px #ddd;
+    width: 100%;
+}
+
+.credit td:last-child {
+    text-align: right;
+}
+
+.credit td[colspan] {
+    text-align: left !important;
+    box-shadow: inset 0 -1px 5px #eee;
+    border-bottom: solid 1px #cfcfcf;
+    background-color: #fdfdfd;
+    color: #111;
+}
+
+table[class^="credit"] tr:last-child td {
+    text-align: right !important;
+    border-top: solid 1px #cfcfcf;
+    box-shadow: inset 0 1px 5px #eee;
+}
+
+table[class^="credit"] input[type="button"],
+table[class^="credit"] input[type="submit"] {
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.credit-container {
+    min-width: 860px;
+    width: 80%;
+    max-width: 1196px;
+    margin: auto;
+}
+
+.credit-crud {
+    width: 100%;
+}
+
+.credit-crud td {
+    width: 65%;
+    text-align: left;
+}
+
+.credit-crud td:not([colspan]) input,
+.credit-crud td select {
+    width: 60%;
+    padding: 8px;
+    border-bottom: solid 1px #ccc;
+}
+
+
+.credit-crud td:first-child {
+    width: 35%;
+}
+
+.credit-crud tr:not(:last-child):not(:nth-child(4)) td {
+    border-bottom: solid 1px #ccc;
+}
+
+.msg {
+    border: solid 1px #75B02E;
+    background-color: #E3FFD4;
+    box-shadow: 0px 0px 1px #5A8723;
+    color: #5A8723;
+    border-radius: 2px;
+    padding: 12px 8px;
+    margin-bottom: 15px;
+}

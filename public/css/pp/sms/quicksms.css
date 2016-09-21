@@ -1,0 +1,158 @@
+
+.quickSMS {
+	width : 400px;
+	height : 310px;
+	background-color : #FFF;
+	z-index	: 1001;
+	position : fixed;
+	border-radius : 3px;
+	-moz-border-radius : 3px;
+	-webkit-border-radius : 3px;
+	box-shadow : 0 0 25px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow : 0 0 25px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow : 0 0 25px rgba(0, 0, 0, 0.3);
+	overflow : hidden;
+	text-align : left;
+	font-size : 12px;
+	border: solid 1px #DEDEDE;
+	color: #444;
+}
+
+.quickSMS .header {
+	height : 35px;
+	width : 100%;
+	background : -o-linear-gradient(top, #fcfff4 0%,#f2f2f2 40%,#e5e5e5 100%);
+	background : -moz-linear-gradient(top, #fcfff4 0%,#f2f2f2 40%,#e5e5e5 100%);
+	background : -webkit-linear-gradient(top, #fcfff4 0%,#f2f2f2 40%,#e5e5e5 100%);
+	background : linear-gradient(top, #fcfff4 0%,#f2f2f2 40%,#e5e5e5 100%);
+	border-top-left-radius : 3px;
+	border-top-right-radius : 3px;
+	border-bottom : solid 1px #D7D7D7;
+	color : #444;
+	line-height : 35px;
+	font-weight	: bold;
+	font-size : 12.5px;
+	text-align : left;
+	box-shadow : 0 0 6px rgba(0,0,0,0.2);
+	-moz-box-shadow : 0 0 6px rgba(0,0,0,0.2);
+	-webkit-box-shadow : 0 0 6px rgba(0,0,0,0.2)
+}
+
+.quickSMS .header .more,  .quickSMS .header .close {
+	float : right;
+	width : 20px;
+	height	: 20px;
+	margin-top : 10px;
+	margin-right : 7px;
+	text-align: center;
+	line-height : 20px
+}
+
+.quickSMS .content {
+	/* width: 500px - 15*2 */
+	width: 370px;
+	padding: 15px
+}
+
+
+.quickSMS .content label.to,
+.quickSMS .content label.date {
+	width: 15%;
+	display: inline-block;
+	font-weight: 700;
+}
+
+
+.quickSMS .content span[name="to"] {
+	display: inline-block;
+	max-width: 39999px !important;
+	width: 85%;	
+	border: solid 1px #C0C0C0;
+	border-radius: 3px;
+	padding: 4px;
+	height: 12px; 
+	float: right;
+	margin-top: -15px;
+	text-align: left;
+}
+
+.quickSMS .content span[name="to"] span.cell { 
+	color: #777;
+	margin-left: 5px;
+	font-size: 10px;
+}
+
+.quickSMS .content .date_picker_container {
+	display: inline-block;
+	float: none !important;
+    margin-left: -12px;
+}
+
+.quickSMS .content .time-hour, .quickSMS .content .time-minute {
+    width: 24px;
+}
+
+.quickSMS .content label.message {
+	width: 10%;
+	display: inline-block;
+	font-weight: 700;
+	text-align: left;
+}
+
+.quickSMS .content span.credits {
+	width: 90%;
+	display: inline-block;
+	margin-top: 15px;
+	text-align: right;
+}
+
+.quickSMS .content span.credits span {
+	font-weight: 700;
+}
+
+.quickSMS .content textarea {
+	margin-top: 10px;
+	max-width: 600px;
+	width: 100%;	
+	border: solid 1px #C0C0C0;
+	border-radius: 3px;
+	padding: 4px;
+	height: 100px;
+}
+
+.quickSMS .content span.count {
+	width: 70%;
+	float: right;
+	display: inline-block;
+	margin-top: 5px;
+	text-align: right;
+}
+
+.quickSMS .content span.count span {
+	font-weight: bold;
+}
+
+.quickSMS .content button {
+	width: 20%;
+}
+
+.quickSMS .content .loading {
+	width: 100%;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+}
+.quickSMS .content .loading img {
+	margin-right: 10px;
+	margin-left: -10px;
+}
+
+.quickSMS .content .success {
+	width: 100%;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+}
+.quickSMS .content .success img {
+	margin-bottom: -7px;
+}

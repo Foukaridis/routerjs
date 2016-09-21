@@ -1,0 +1,557 @@
+/***** Global Styles *****/
+body
+{
+    background: #dddddd;
+    text-align: center;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    color: #3f3f3f;
+    background-image: url('images/background.jpg'); 
+    background-repeat: repeat-x;
+}
+h1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 550;
+}
+#bread_crumbs {
+    position: relative;
+    float: right;
+    padding-top: 5px;
+    padding-right: 20px;
+    z-index: 2;
+}
+#bread_crumbs h1 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #bbbbbb;    
+}
+label {
+    font-size: 12px;
+    color: #262662;    
+}
+#bullets ul{
+    list-style-image: url('images/bullet.jpg');
+}
+#bullets li{
+    font-size: 11px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+}
+a:link {
+    color:#262662;
+    text-decoration: none;
+}
+a:visited {
+    color:#262662;
+    text-decoration: none;
+}
+a:hover {
+    color:#262662;
+    text-decoration: none;
+}
+a:active {
+    color:#262662;
+    text-decoration: none;
+}
+
+.input_field {
+    width: 180px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+/***** Page Layout Styles *****/
+#mainContainer { 
+    position: relative;
+    overflow: hidden;
+    width: 1020px; 
+    height: 684px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border: none;
+    box-shadow: 0px 0px 6px #000080;
+    -moz-box-shadow: 0px 0px 6px #000080;
+    -webkit-box-shadow: 0px 0px 6px #000080;
+    background-color: #ffffff;
+    z-index: 1;
+}
+#ieShadow{
+    position: relative;
+    margin-top: -693px;
+    width: 1022px;
+    height: 689px;
+    background-color: #000080;
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5', MakeShadow='true', ShadowOpacity='0.60');
+    z-index: 0;
+}
+#headerPane{
+    width: 100%;
+    height: 130px;
+    background-image: url('images/header.jpg');
+}
+#menuPane {
+    position: relative;
+    top: 85px;
+    float: right;
+    width: 745px;
+    text-align: left;
+    z-index: 2;
+}
+.dijitMenuItem {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 11px;
+    width: 55px;
+}
+#contentsPane {
+    position: relative;
+    top: -27px;
+    width: 100%;
+    height: 520px;
+    background-color: white;
+    background-color: transparent;
+    overflow: hidden;
+}
+#footerPane{
+    position: relative;
+    top: -36px;
+    width: 100%;
+    height: 71px;
+    background-image: url('images/footer.jpg');
+    background-repeat: no-repeat;
+}
+#footerTable {
+    font-size: 10px;
+}
+/***** Styles for home.html *****/
+#whatispp {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 11px;
+    color: #262662;    
+    width: 470px;
+}
+
+#client_quotes {
+    position: relative;
+    top: 430px;
+    left: 38px;
+    width: 400px;
+    color: #262662;
+}
+#quote {
+    position: relative;
+    margin-top: 8px;
+    font-style:italic;
+    font-size: 11px;
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+}
+#person{
+    position: relative;
+    left: 150px;
+    top: 7px;
+    font-size: 10px;
+}
+#bullets {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    width: 350px;
+    height: 100%;
+    font-size: 11px;
+    color: #262662;        
+}
+#home_image{
+    position: absolute;
+    top: 16px;
+    left: 415px;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/overview.gif');
+    background-repeat: no-repeat;
+}
+/***** contact_us.html *****/
+#contact_div {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 580px;
+}
+#heading {
+    font-size: 13px;
+    color: #83B8D8;
+    height: 30px;
+}
+#details {
+    font-size: 11px;
+    color: #262662;
+}
+#email_link {
+    font-size: 11px;
+    height: 80px;
+    color: #262662;
+}
+#contact_image{
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/mouse.jpg');
+    background-repeat: no-repeat;
+}
+#demo_message {
+    padding-top: 50px;
+    margin-left: 15px;
+    width: 400px;
+    font-size: 12px;
+    color: #262662;
+}
+/***** demo.html *****/
+#demo_image {
+    position: absolute;
+    top: 100px;
+    left: 412px;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/keyboard_back.jpg');
+    background-repeat: no-repeat;
+}
+#demo_form {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+}
+/***** faq.html *****/
+#faq_image {
+    position: absolute;
+    top: 11px;
+    left: 429px;
+    width: 591px;
+    height: 100%;
+    background-image: url('images/laptop_back.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#faq_container{
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    width: 1019px;
+    height: 500px;
+    overflow: auto;
+}
+.faq_category{
+    font-size: 16px;
+    color: #262662;    
+    margin-top: 20px;    
+    margin-left: 20px;    
+}
+.faq_question{
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    color: #262662;
+}
+div.faq_question:hover {
+    color:#CC0000;
+    cursor:pointer;
+}
+.faq_answer{
+    width: 500px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 11px;
+    color:#CC0000
+}
+/***** benefits.html *****/
+/* Uses FAQ styles except for the following */
+#benefits_image {
+    position: absolute;
+    top: 14px;
+    left: 429px;
+    width: 591px;
+    height: 500px;
+    background-image: url('images/people_back.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+/***** features.html *****/
+#features {
+    position: absolute;
+    top: 63px;
+    left: 40px;
+    width: 1020px;
+    height: 500px;
+}
+#features_description {
+    position: absolute;
+    top: 310px;
+    left: 30px;
+    width: 400px;
+    height: 175px;
+    font-size: 11px;
+    color:#262662;
+}
+area.feature_area:hover    {
+    cursor: pointer;
+}
+/***** clients.html *****/
+#client_login {
+    width: 300px;
+    height: 155px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+#login_form{
+    border: 1px solid #83B8D8;
+    opacity: 50;
+}
+#err_msg {
+    font-size: 12px;
+    color:#CC0000
+}
+/***** about_us.php *****/
+#about_us_image{
+    position: absolute;
+    top: 11px;
+    left: 381px;
+    width: 639px;
+    height: 500px;
+    background-image: url('images/aboutus.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#about_us {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    width: 1019px;
+    height: 500px;
+    overflow: auto;
+}
+#about_us_container {
+    position: relative;
+    left: 30px;
+    top: 5px;
+    width: 400px;
+    font-size: 11px;
+    color:#262662;
+}
+.about_us_active {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 40px;
+}
+.about_us_link {
+    text-align: left;
+    margin-left: 40px;
+}
+a.about_us_a:link {
+    color: #83B8D8;
+}
+a.about_us_a:visited {
+    color: #83B8D8;
+}
+a.about_us_a:hover {
+    font-weight: normal;
+    color: #262662;
+}
+#careers_container {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    width: 1019px;
+    height: 500px;
+    overflow: auto;
+}
+#careers_message {
+    padding-top: 50px;
+    margin-left: 15px;
+    width: 900px;
+    font-size: 12px;
+    color: #262662;
+}
+#careers_image {
+    position: absolute;
+    top: 11px;
+    left: 270px;
+    width: 750px;
+    height: 500px;
+    background-image: url('images/careers.gif');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#navMenu ul {
+    margin-top: -15px;
+}
+#navMenu li {
+    float: right;
+    margin: 0;
+    position: relative;
+    list-style: none outside none;
+}
+#navMenu a {
+    background-color: white;
+    background-image: url("images/menuHighlight.png");
+    background-position: 0 100px;
+    border-color: #769DC0 #FFFFFF;
+    border-style: solid;
+    border-width: 1px 0;
+    color: #4A4A4A;
+    font-size: 11px;
+    min-width: 64px;
+    padding: 6px 10px 7px;
+    text-align: center;
+    display: block;
+}
+
+#navMenu a:hover, #navMenu a:active {
+    background-color: #ABD6FF;
+    background-position: 0 0;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    margin: 0;
+    padding: 6px 9px 7px 9px;
+}
+#navMenu li:last-child a{
+    border-color: #769DC0 #FFFFFF #769DC0 #769DC0;
+    border-left-width: 1px;
+    padding: 6px 11px 7px 11px;
+}
+#navMenu li a:hover {
+    border-left-color: #769DC0;
+    border-right-color: #769DC0;
+}
+.quote_container {
+    display: none;
+}
+img{
+    border: 0;
+}
+.error_message {
+    background-color: #E74A4A;
+    border: 1px solid #8E0B0B;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    cursor: help;
+    display: none;
+    font-size: 12px;
+    left: 440px;
+    margin-top: 1px;
+    padding: 2px;
+    position: absolute;
+}
+.input_error {
+    border-color: red;
+    border-radius: 3px 3px 3px 3px;
+    border-width: 1px;
+    padding: 2px;
+}
+
+/* terms.html */
+#terms_container{
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    width: 1019px;
+    height: 500px;
+    overflow: auto;
+    font-size: 12px;
+}
+
+#terms_container .heading {
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    color: #262662;
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+}
+
+#terms_container p {
+    margin:0px;
+    margin-left: 30px;
+    text-align: justify;
+    font-size: 11px;
+    width: 94%;
+    display: none;
+    padding: 0px;
+}
+
+#terms_container div.text {
+    margin:0px;
+    margin-left: 30px;
+    text-align: justify;
+    font-size: 11px;
+    width: 94%;
+    padding: 0px;
+}
+
+#terms_container #toggleAll {
+    font-size: 11px;
+}
+
+/* footer.html */
+#footerTable td.notice {
+    text-align: left;
+    padding-left: 30px;
+    color: #262662;
+    padding-top: 12px;
+    line-height: 15px;
+}
+
+#footerTable td.notice a {
+    color: #262662;
+}
+
+/* sitemap.html */
+div.sitemap {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    width: 1019px;
+    height: 500px;
+    overflow: auto;
+    font-size: 12px;
+    padding-left: 25px;
+}
+
+div.sitemap span.heading {
+    font-weight: bold;
+    text-decoration: underline;
+    height: 20px;
+    line-height: 20px;
+}
+
+div.sitemap p {
+    padding: 0px;
+    margin: 0px;
+    padding-left: 5px;
+}
+#socialMediaIcons{
+    z-index: 9;
+    position: absolute;
+    right: 0;
+    padding-top: 16px;
+    padding-right: 30px;
+}
+#socialMediaIconsTwitter, #socialMediaIconsLinkedIn, #socialMediaIconsFacebook, #socialMediaIconsPinterest{
+    border: none;
+}

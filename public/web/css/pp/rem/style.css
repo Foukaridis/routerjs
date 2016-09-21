@@ -1,0 +1,110 @@
+#reminders_wrap {
+	width: 800px;
+	margin: auto;
+	text-align: center;
+	display: block
+}
+
+#reminders_wrap td {
+	text-align: left
+}
+
+#reminders_wrap td[colspan="8"] {
+	text-align: center
+}
+
+#reminders_wrap  #rem_inline_inline_img_tbl {
+	margin-top: 10px
+}
+
+#reminders_wrap  #rem_inline_inline_img_tbl td {
+	vertical-align: middle;
+	line-height: 40px;
+	height: 40px
+}
+
+#reminders_calendar {
+	width: 900px;
+	margin: auto;
+	position: relative;
+	top: -25px;
+}
+
+
+#reminders_calendar .go_back {
+	width: 490px;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	top: 23px;
+}
+
+#reminders_calendar .go_back input[type=button] {
+	width: 150px;
+}
+
+#spinner {
+	font-weight: bold
+}
+
+#overlay_inner div hr {
+	border: none;
+	height: 1px;
+	background-color: #CCC
+}
+
+#overlay_inner .close {
+	padding: 2px 5px;
+	font-weight: bold;
+	position: absolute;
+	top: 6px;
+	right: 5px;
+	margin: auto;
+	color: #FFF;
+	cursor: pointer;
+}
+
+#overlay_inner .load {
+	position: absolute;
+	left: 45%;
+	top: 45%;
+}
+
+#overlay_inner p.buttons {
+	width:100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+}
+
+#overlay_inner p.buttons button {
+	font-size: inherit;
+}
+
+table.inline_modal {
+	width: 400px;
+	position: relative;
+	margin: -10px 0px 0px -10px;
+}
+table.inline_modal th, table.inline_modal td {
+	border-bottom: solid 1px #D6D6D6;
+	padding: 5px;
+	font-size: inherit;
+}
+
+table.inline_modal th {
+	color: #202120;
+	background-color: #E5E5E5;
+}
+
+table.inline_modal tr:hover {
+	background-color: #E5E5E5;
+	color: #202120;
+	cursor: pointer;
+}
+table.inline_modal tr:hover th {
+	color: #202120;
+	background-color: #E5E5E5;
+	cursor: default;
+}

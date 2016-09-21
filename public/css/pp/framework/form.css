@@ -1,0 +1,176 @@
+/*
+	All style classes related to form.
+
+	Last change:	22/10/2012
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Copyright:		2012, Parallel Software
+*/
+
+td.form_label {
+    color: #565454;
+    font-family: Arial;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+td.form_label[rowspan], td.form_label_req[rowspan] {
+    vertical-align: top;
+}
+
+td.cont_form_label, td.cont_form_label_req {
+    background-color: #F2F2F2;
+    font-family: Arial;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: top;
+	text-align: left;
+    line-height: 16px;height: 16px ;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+td.form_label_req {
+    color: #565454;
+    font-family: Arial;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+td.cont_form_label_req {
+	font-weight: bold;
+}
+
+td.form_label_cus {
+    color: #565454;
+    font-family: Arial;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: top;
+    width: 700px;
+}
+
+td.form_cus_header {
+    color: #565454;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    width: 750px;
+}
+
+td.form_sub_header {
+    color: #264489;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 4px ;
+}
+
+/** Yes, these two shouldn't really be a float, bit I've just about given up on IE-8's
+	Implementation of CSS 2.1 and display: inline-block									**/
+.date_picker_container,.time_picker_container {
+	margin-top:-6px;
+	float: left;
+}
+.date_picker_container input {
+	font-size:inherit;
+}
+
+.date_picker_container * {
+}
+
+.date_picker_container .selector {
+	max-width:80px;
+	display: inline;
+	clear: none;
+}
+
+/** The previous definition also selects this element, I know. I'm hacking IE 8 here. **/
+.date_picker_container div[class^="selector"] {
+	display: inline-block;
+}
+
+.date_picker_container .selector * {
+}
+
+.date_picker_container .selector select {
+	min-width:0;
+	max-width:70px;
+}
+
+.date_picker_container .selector span {
+	width:100%;
+	position:absolute;
+}
+
+.date_picker_container .selector .toggle {
+	top:0;
+}
+
+.date_picker_container a img {
+	position:relative;
+	display:inline;
+	top:7px;
+	width:23px;
+	height:23px;
+}
+
+.time_picker_container {
+	margin: 0;
+}
+
+td.form_label a[href] {
+    color: #264489 ;
+}
+
+
+/** Containers **/
+
+table.cont_tbl {
+	background-color: #F2F2F2;
+	border: solid 1px #C0C0C0;
+	border-radius: 3px ;
+	padding: 10px ;
+	box-shadow: rgba(0, 0, 0, 0.196) 0px 0px 3px 0px;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+
+table.cont_tbl select[size] {
+	background-color: #FFFFFF;
+	width: 98%;
+}
+
+table.cont_tbl tr td:first-child {
+	padding-left: 5px ;
+}
+
+table.cont_tbl tr td:last-child {
+	padding-right: 5px ;
+}
+
+table.cont_tbl tr:first-child td {
+	padding-top: 5px ;
+}
+
+table.cont_tbl tr:last-child td {
+	padding-bottom: 5px ;
+}
+
+td[align="center"] {
+	text-align: center;
+}

@@ -1,0 +1,204 @@
+/*
+	Classes used for everything UI related
+
+	Last change:	22/10/2012
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Copyright:		2012, Parallel Software
+*/
+
+.error_text {
+	color: #FF0000;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.hints {
+    color: #667ADC;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.underline {
+    text-decoration: underline !important;
+}
+
+input, select, textarea, button, .button {
+    border: 1px solid #B7B7B7;
+    border-radius: 0px;
+    /*box-shadow: 3px 3px 8px -7px black, 2px 2px 4px -4px black inset;*/
+    color: #565454;
+    margin: 2px;
+    padding: 4px;
+    
+	font-family: inherit;
+    font-size: inherit;
+	
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input:hover, select:hover, textarea:hover, button:hover, .button:hover {
+	border: 1px solid #7d7bcd;
+    border: 1px solid rgba(43, 65, 155, 0.45);
+	outline: none;
+}
+
+input:focus, select:focus, textarea:focus, button:focus, .button:focus {
+	border: 1px solid #6462b4;
+    border: 1px solid rgba(43, 65, 155, 0.55);
+	box-shadow: 0 0 2px  rgba(43, 65, 155, 0.5);
+	outline: none;
+}
+
+select {
+    padding: 4px 4px 4px 4px;
+	color: #555 !important;
+}
+
+select > option:nth-child(2n+1) {
+    background-color: #F7FCFD;
+}
+
+input[type="text"] {
+    max-width: 260px !important;
+	color: #555;
+}
+
+input[class="button"], button, input[type=button], input[type=submit], .button {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #FEFEFE;
+    border-radius: 3px;
+    background: #fcfff4; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZmZmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iI2YyZjJmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #fcfff4 0%, #f2f2f2 40%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfff4), color-stop(40%,#f2f2f2), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fcfff4 0%,#f2f2f2 40%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fcfff4 0%,#f2f2f2 40%,#e5e5e5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fcfff4 0%,#f2f2f2 40%,#e5e5e5 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #fcfff4 0%,#f2f2f2 40%,#e5e5e5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-8 */
+    padding: 4px;
+	
+	color: #555;
+}
+
+select[size], select[multiple] {
+	background: none;
+	background-color: #FFF;
+}
+
+select {
+}
+
+textarea {
+    color: #565454;
+    font-weight: normal;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.label {
+    color: #565454;
+    font-family: Arial;
+    font-size: 110%;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.center {
+    text-align: center;
+}
+
+select[name$="Select"] {
+    text-align: left !important;
+}
+
+.qtip-content {
+    color: #999;
+    font-size: inherit;
+    padding: 3px;
+}
+
+a[title] {
+    cursor: help;
+}
+
+a[href] {
+    cursor: pointer;
+}
+
+input:disabled:hover {
+	border-color: #C0C0C0;
+	cursor: default;
+}
+
+input[type="checkbox"] {
+	padding: 3px;
+}
+
+
+/** Uniform **/
+div.selector {
+	cursor: pointer;
+	font-size: inherit;
+	font-family: inherit;
+}
+
+div.selector span {
+	font-size: inherit;
+	text-align: left;
+	font-family: inherit;
+	font-weight: normal;
+}
+
+div.selector select {
+	z-index: 10;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: pointer;
+}
+
+.font_changer {
+	position: absolute;
+	height: 20px;
+	width: 80px;
+	float: right;
+	margin-left: 25px;
+	margin-top: 18px;
+	right: 0px;
+	top: 0px;
+}
+
+.font_changer img {
+	cursor: pointer;
+	margin-right: 10px;
+	float: right;
+	/** Make the images more accesible **/
+	display: block;
+	padding: 3px; 
+}
+
+.bad {
+	color: #B03838;
+}
+
+.good {
+	color: #61BD4E;
+}
+
+.small {
+	font-size: smaller;
+}

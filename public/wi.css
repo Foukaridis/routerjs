@@ -1,0 +1,231 @@
+/* Job Adverts*/
+/* Filter */
+/* general fonts & colours */
+.jobs_filter
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt; 
+    color: #6E6E6E;
+}
+
+form.jobs_filter
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* filter table styles
+    All widths are relative to the table width */
+table.jobs_filter
+{
+    border: 1px dotted #6E6E6E;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px; 
+}
+
+/* field labels */
+td.jobs_filter_field_label
+{
+    vertical-align: top;
+    font-weight: bold;
+}
+
+/* field cells */
+td.jobs_filter_field
+{
+    vertical-align: top;
+}
+
+/* Drop down and multi select boxes */
+select.jobs_filter_field 
+{
+    border: dotted 1px #9E9E9E;
+	font-size: 8pt; 
+    color: #6E6E6E;
+}
+
+/* buttons */
+input.jobs_filter_field
+{
+    border: 1px dotted #6E6E6E;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* List styles*/
+.jobs_list
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt; 
+    color: #6E6E6E;
+}
+
+div.jobs_list
+{
+    text-align: center;
+    margin-top: 10px;
+	overflow: auto;
+}
+
+table.jobs_list
+{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; 
+    border: 1px dotted #6E6E6E;
+}
+
+td.jobs_list_header
+{
+    background-color: #EEEEEE;
+    padding: 5px;
+}
+
+table.jobs_list_job
+{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-top: solid 1px #0000CC;
+}
+
+td.jobs_list_job_title
+{
+    font-size: 12pt;
+    font-weight: bold;
+    color: #0000CC;
+    width: 90%;
+}
+
+td.jobs_list_job_brief
+{
+    font-size: 8pt;
+    color: #6E6E6E;
+}
+
+td.jobs_list_job_data
+{
+    font-size: 8pt;
+    font-weight: bold;
+    color: #6E6E6E;
+}
+
+td.jobs_list_job_date
+{
+    width: 10%;
+    text-align: right;
+    font-size: 8pt;
+    color: #6E6E6E;
+}
+
+a.jobs_list_job_more:link, a.jobs_list_job_more:visited, a.jobs_list_job_more:hover
+{
+    font-size:7pt;
+	text-decoration: none;
+    color: #0000CC;
+}
+
+div.jobs_list_job_detail
+{
+    margin-left: 15px;
+    width: 95%;
+    border: 1px dotted #6E6E6E;
+}
+
+td.jobs_list_job_detail
+{
+    font-size: 8pt;
+    color: #6E6E6E;   
+}
+
+td.jobs_list_job_apply
+{
+}
+
+td.jobs_list_job_contact
+{
+    font-size: 7pt;
+    color: #6E6E6E;
+}
+
+td.jobs_list_job_detail_ref_no
+{
+    font-size: 8pt;
+    color: #6E6E6E;   
+    width: 50%;
+    text-align: left;   
+}
+
+td.jobs_list_job_detail_date
+{
+    font-size: 8pt;
+    color: #6E6E6E;   
+    width: 50%;
+    text-align: right;   
+}
+
+
+a.jobs_list_job_link:link, a.jobs_list_job_link:visited, a.jobs_list_job_link:hover
+{
+    font-size:8pt;
+	text-decoration: none;
+    color: #0000CC;
+}
+
+table.job_list_paging
+{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+
+/* Submit Candidate CV*/
+.submit_cv
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt; 
+    color: #6E6E6E;
+}
+
+form.submit_cv
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+table.submit_cv
+{
+    border: 1px dotted #6E6E6E;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px; 
+}
+td.submit_cv_field_label
+{
+    vertical-align: top;
+    font-weight: normal;
+}
+td.submit_cv_field
+{
+    vertical-align: top;
+}
+input.submit_cv_field 
+{
+    border: dotted 1px #9E9E9E;
+	font-size: 8pt; 
+    color: #6E6E6E;
+}
+
+td.jobs_list_job_detail, p {
+        margin-bottom:0px;
+        margin-top:0px;
+}
+table.powered_by {
+	border: none;
+	width: 750px;
+}

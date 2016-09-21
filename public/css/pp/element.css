@@ -1,0 +1,31 @@
+/*
+	Default HTML elements whose styles are overwritten
+	are defined here.
+
+	Last change:	22/10/2012
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Copyright:		2012, Parallel Software
+*/
+
+strong, b {
+    font-weight: 700;
+}
+
+p {
+    color: #565454;
+}
+
+a {
+    color: #565454;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+}
+
+hr {
+    background-color: #CCC;
+    height: 1px;
+    border: none;
+}

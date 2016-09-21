@@ -1,0 +1,313 @@
+/*
+	All style classes related to the preview in CVW.
+
+	Last change:	23/10/2014
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Adapted:		Lehan Coetzee <lehan@parallel.co.za>
+	Copyright:		2012, Parallel Software
+*/
+
+table.list_inner tr td.data_container {
+	padding: 0;
+	height: 100px;
+}
+
+table.list_inner tr td.row_select {
+	background-color: #FFF !important;
+}
+table.list_inner tr td.row_select:first-child * {
+	background-color: #FFF;
+}
+
+
+
+table.list_inner tr td.row_select:last-child {
+	padding: 0;
+}
+
+table.list_inner tr td.row_select:last-child a {
+	background-color: #FFF;
+	margin-bottom: 5px;
+}
+
+table.list_inner tr .toggle,
+table.list_inner tr .untoggle {
+	position: absolute;
+	width: 120px;
+	height: 20px;
+	text-align: center;
+	display: none;
+	background-color: #FFF;
+	color: #264489;
+	font-size: smaller;
+	font-weight: bold;
+	line-height: 20px;
+	margin-top: -16px;
+	border: solid 1px #CCC;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	border-top: none;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+table.list_inner tr .untoggle {
+	display: block;
+}
+
+table.list_inner tr td.row_select:last-child .previewCV {
+	margin-top: 10px;
+}
+
+table.list_inner tr td.row_select:last-child .previewCV span {
+	color: #000;
+	/** I'm really sorry for this. **/
+}
+
+table.list_inner tr td.row_select div.loader {
+	background-color: #FFF;
+	font-weight: bold;
+	margin-top: 43px;
+	margin-left: 35px;
+}
+
+table.list_inner tr td.row_select div.loader img {
+	margin-right: 7px;
+	margin-bottom: -1px;
+}
+
+table.list_inner tr td.data_container table {
+	width: 100%;
+	height: 100%;
+}
+
+table.list_inner tr td.data_container table a {
+	color: #264489;
+}
+
+table.list_inner tr td.data_container table td {
+	border-right: solid 1px #D5D5D5;
+	background-color: #FFF;
+}
+
+table.list_inner tr td.data_container table td * {
+	background-color: #FFF;
+}
+
+table.list_inner tr td.data_container table td h4 {
+	font-size: inherit;
+	font-weight: 700;
+	margin-bottom: 5px;
+	color: #264489;
+	width: 100%;
+	text-align: left;
+	height: 15px;
+	border-bottom: solid 1px #DDD;
+}
+
+
+/** Details **/
+table.list_inner tr td.data_container table td.details span.spacer {
+	width: 80px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+table.list_inner tr td.data_container table td.details span.inner_spacer {
+	width: 10px;
+	display: inline-block;
+}
+
+table.list_inner tr td.data_container table td.details {
+	width: 240px;
+}
+
+/** Classification **/
+table.list_inner tr td.data_container table td.classification span.spacer {
+	width: 80px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+table.list_inner tr td.data_container table td.classification span.inner_spacer {
+	width: 10px;
+	display: inline-block;
+}
+
+table.list_inner tr td.data_container table td.classification {
+	width: 239px;
+}
+
+table.list_inner tr td.data_container table td.classification span.addr_spacer {
+	margin-left: 80px;
+}
+
+/** Branches **/
+table.list_inner tr td.data_container table td.branches {
+	width: 289px;
+}
+
+table.list_inner tr td.data_container table td.branches div.branch-head {
+	float: left;
+	font-weight: bold;
+	width: 200px;
+}
+
+table.list_inner tr td.data_container table td.branches div.tel-head {
+	float: left;
+	font-weight: bold;
+	width: 85px;
+}
+
+table.list_inner tr td.data_container table td.branches div.branch-title {
+	float: left;
+	width: 200px;
+	overflow: hidden;
+}
+
+table.list_inner tr td.data_container table td.branches div.tel-title {
+	float: left;
+	width: 85px;
+	overflow: hidden;
+}
+
+/** Contacts **/
+table.list_inner tr td.data_container table td.contacts {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #888;
+}
+
+table.list_inner tr td.data_container table td.contacts div.div-table-head {
+	float: left;
+	font-weight: bold;
+	width: 187px;
+}
+
+table.list_inner tr td.data_container table td.contacts div.div-table-head-tel {
+	float: left;
+	font-weight: bold;
+	width: 85px;
+}
+
+table.list_inner tr td.data_container table td.contacts div.title {
+	float: left;
+	width: 187px;
+	overflow-x: hidden;
+}
+
+table.list_inner tr td.data_container table td.contacts div.title-tel {
+	float: left;
+	width: 85px;
+	overflow-x: hidden;
+}
+
+table.list_inner tr td.data_container table td.contacts div.clients_show_more {
+	text-align: center;
+}
+
+.preview_link_container {
+	text-align: center;	
+	padding: 0px;
+	margin: 0px;
+}
+
+/** Contacts Preview Dialog **/
+div.contactsPreviewDialog {
+	max-height: 300px;
+	margin-bottom: 20px;
+	overflow-x: hidden;
+}
+
+div.contactsPreviewDialog div.preview_header {
+	width: 825px;
+	height: 22px;
+	line-height: 22px;
+	text-align: left;
+	font-weight: 700;
+	border-bottom: solid 1px #DDD;
+	color: #264489;
+	margin: 0 auto;	
+	margin-bottom: 10px;
+}
+
+div.contactsPreviewDialog div.div-table-head {
+	width: 160px;
+	line-height: 15px;	
+	float: left;
+	font-weight: bold;
+}
+
+div.contactsPreviewDialog div.div-table-head-tel {
+	width: 95px;
+	line-height: 15px;	
+	float: left;
+	font-weight: bold;
+}
+
+div.contactsPreviewDialog div.title {
+	width: 160px;
+	line-height: 15px;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+div.contactsPreviewDialog div.title-tel {
+	width: 95px;
+	line-height: 15px;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+/** Branches Preview Dialog **/
+div.branchesPreviewDialog {
+	max-height: 300px;
+	margin-bottom: 20px;
+	overflow-x: hidden;
+}
+
+div.branchesPreviewDialog div.preview_header {
+	width: 425px;
+	height: 22px;
+	line-height: 22px;
+	text-align: left;
+	font-weight: 700;
+	border-bottom: solid 1px #DDD;
+	color: #264489;
+	margin: 0 auto;	
+	margin-bottom: 10px;
+}
+
+div.branchesPreviewDialog div.branch-head {
+	width: 320px;
+	line-height: 15px;	
+	float: left;
+	font-weight: bold;
+}
+
+div.branchesPreviewDialog div.tel-head {
+	width: 95px;
+	line-height: 15px;	
+	float: left;
+	font-weight: bold;
+}
+
+div.branchesPreviewDialog div.branch-title {
+	width: 320px;
+	line-height: 15px;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+div.branchesPreviewDialog div.tel-title {
+	width: 95px;
+	line-height: 15px;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}

@@ -1,0 +1,61 @@
+root {
+	display: block;
+}
+
+body {
+	font-family: Dejavu Sans, Arial; 
+	font-size: 12px;
+	font-weight: 400;
+	padding: 80px 100px;
+
+	margin: auto auto;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+.notice {
+	color: #FFF;
+	background-color: #C00;
+	font-size: 13px;
+	text-align: center;
+	padding: 12px 0;
+	width: 100%;
+	margin: 0;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.notice .hr {
+	display: block;
+	margin: 6px;
+	border: none;
+	height: 0;
+}
+
+.notice a {
+	color: #FFF;	
+}
+
+pre {
+	background-color: #F7F7F9;
+	border: 1px solid #E1E1E8;
+	padding: 8px;
+}
+
+.powered_logo {
+	float: right;
+	margin-top: 50px;
+	max-width: 170px;
+	opacity: 0.4;
+	transition-property: opacity;
+	transition-duration: 0.4s;
+}
+
+.powered_logo:hover {
+	opacity: 1;
+	transition-property: opacity;
+	transition-duration: 0.2s;
+}

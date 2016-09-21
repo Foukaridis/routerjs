@@ -1,0 +1,73 @@
+.credits {
+    width: 100%;    
+    border-spacing: 0;
+    font-size: 11px;
+}
+
+.credits thead tr {
+    background: #aa0306;
+    background: -moz-linear-gradient(top, #aa0306 0%, #910205 44%, #6d0001 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aa0306), color-stop(44%,#910205), color-stop(100%,#6d0001));
+    background: -webkit-linear-gradient(top, #aa0306 0%,#910205 44%,#6d0001 100%);
+    background: -o-linear-gradient(top, #aa0306 0%,#910205 44%,#6d0001 100%);
+    background: -ms-linear-gradient(top, #aa0306 0%,#910205 44%,#6d0001 100%);
+    background: linear-gradient(to bottom, #aa0306 0%,#910205 44%,#6d0001 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa0306', endColorstr='#6d0001',GradientType=0 );
+}
+
+.credits thead tr th {
+    padding: 10px 8px;
+    text-align: left;
+    color: #FFF;
+}
+
+.credits tr:first-child th:first-child {
+    border-top-left-radius: 2px;
+}
+
+.credits tr:first-child th:last-child {
+    border-top-right-radius: 2px;
+}
+
+.credits td {
+    padding: 8px;
+    border-bottom: solid 1px #ccc;
+}
+
+.credits td:nth-child(4) input {
+    width: 80%;
+    margin-right: .35em;
+}
+
+.credits td:first-child {
+    color: #555;
+    border-left: solid 1px #ccc;
+}
+
+.credits td:last-child {
+    border-right: solid 1px #ccc;
+    text-align: right;
+}
+
+.credits td:nth-child(2) {
+    font-weight: bold;
+}
+
+.credits tr:last-child td {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    text-align: right;
+}
+
+.credits tr:last-child td input {
+    padding: 4px;
+    cursor: pointer;
+}
+
+.credits td[colspan] {
+    box-shadow: inset 0 -2px 5px #eee;
+    color: #111;
+    font-weight: bold;
+    text-align: left;
+}
+

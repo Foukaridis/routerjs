@@ -1,0 +1,217 @@
+/* 
+    Document   : dataTables
+    Created on : Nov 19, 2012, 9:12:15 AM
+    Author     : ferdi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.dataTables_wrapper {
+	width: 940px;
+	margin: 0 auto;
+	
+	border: 1px solid #A6ACD8;
+	border-radius: 3px;
+}
+
+.tab_page_outer .dataTables_wrapper {
+	
+	width: 100%;
+}
+
+.dataTables_wrapper .header {
+	
+	color: white;
+	font-size: inherit;
+	font-weight: 700;
+	
+	background: linear-gradient(to bottom, #2B419B 0px, #233F8C 99%) transparent;
+	color: #FFFFFF;
+	font-size: inherit;
+	font-weight: 700;
+	padding: 8px 5px !important;
+}
+
+.dataTables_wrapper .header div {
+	width: 50%;
+	display: inline-block;
+}
+
+.dataTables_wrapper .header div:first-child {
+	text-align: left;
+}
+.dataTables_wrapper .header div:last-child {
+	text-align: right;
+}
+
+
+.dataTables_wrapper table {
+	width: 100%;
+} 
+
+.dataTables_wrapper table th {
+	background: linear-gradient(to bottom, #FCFFF4 0px, #F2F2F2 40%, #E5E5E5 100%) transparent;
+	height: 22px;
+	border-right: solid 1px #C0C0C0;
+	border-bottom: solid 1px #C0C0C0;
+	line-height: 22px;
+	font-weight: bold;
+	
+	color: #444444;
+	padding: 0px 5px;
+	text-align: left;
+}
+
+.dataTables_wrapper table thead th:last-child {
+	border-right: none;
+}
+
+.dataTables_wrapper table thead th.sorting {
+	cursor: pointer;
+}
+
+.dataTables_wrapper table thead th img {
+	float: right;
+	margin-top: 4px;
+}   
+
+.dataTables_wrapper table thead th.sorting_desc,
+.dataTables_wrapper table thead th.sorting_asc {
+	background: linear-gradient(to bottom, #BBDAEA 0px, #A0D1E8 100%);
+	cursor: pointer;
+}
+
+.dataTables_wrapper table tbody td {
+	padding: 5px;
+	color: #222222;
+	overflow: hidden;
+	vertical-align: top !important;
+}
+
+.dataTables_wrapper table tbody td > span {
+	color: #777;
+}
+
+.dataTables_wrapper table tbody td > .button {
+	margin-bottom: -5px;
+	display: inline-block;
+}
+
+.dataTables_wrapper table tbody tr:nth-child(even) {
+	background-color: #EEEEEE;
+}
+
+.dataTables_wrapper table tbody tr:hover {
+	background-color: #DCE4F9;
+}
+
+.dataTables_wrapper .bottom {
+	margin: 10px 0;
+	text-align: center;
+	padding-right: 5px;
+}
+
+/*PAGING NEW*/
+.dataTables_wrapper .dataTables_paginate {
+    float: right;
+    padding-top: 0.25em;
+    text-align: right;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    color: #333333 !important;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 2px;
+    min-width: 1.5em;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: linear-gradient(to bottom, white 0%, gainsboro 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #cacaca;
+    color: #333333 !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid transparent;
+    box-shadow: none;
+    color: #666 !important;
+    cursor: default;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: linear-gradient(to bottom, #585858 0%, #111111 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #111111;
+    color: white !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active {
+    background: linear-gradient(to bottom, #2b2b2b 0%, #0c0c0c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 3px #111 inset;
+    outline: medium none;
+}
+/*STOP*/
+/*.dataTables_wrapper .bottom .dataTables_paginate.paging_two_button {
+	text-align: right;
+}
+
+.dataTables_wrapper .bottom .dataTables_paginate.paging_two_button a {
+	display: inline-block;
+	background: linear-gradient(to bottom, #FCFFF4 0px, #F2F2F2 40%, #E5E5E5 100%) transparent;
+	border-radius: 3px;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: 400;
+	text-align: center;
+	width: 48px;
+	color: #555555;
+	cursor: pointer;
+	border: 1px solid silver;
+	padding: 4px;
+	margin-right: 5px;
+}
+
+.dataTables_wrapper .bottom .dropdown_pagination {
+	width: 57%;
+	text-align: right;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.dataTables_wrapper .bottom .button_pagination {
+	width: 43%;
+	text-align: right;
+	display: inline-block;
+}
+
+.dataTables_wrapper .bottom .dataTables_paginate.paging_two_button a[class^="paginate_disabled"] {
+	opacity: 0.8;
+	cursor: default;
+}
+
+.dataTables_wrapper .bottom .dataTables_paginate.paging_two_button a[class^="paginate_disabled"]:hover {
+	border: 1px solid silver;
+}
+
+.dataTables_wrapper .bottom .dataTables_paginate.paging_two_button a:hover {
+	border: 1px solid #A6ACD8;
+}*/
+#tbl_lists_candidates_info {
+    text-align: right;
+}
+#tbl_lists_candidates_first {
+    text-align: left;
+}
+#tbl_lists_candidates_previous {
+    text-align: left;
+}
+#tbl_lists_candidates_next {
+    text-align: right;
+}
+#tbl_lists_candidates_last {
+    text-align: right;
+}
+.dataTables_wrapper .dataTables_processing {
+	display: none;
+}

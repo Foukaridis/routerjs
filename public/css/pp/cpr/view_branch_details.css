@@ -1,0 +1,9 @@
+table.branch_preview_table {
+	border-style: none;
+}
+
+table.branch_preview_table tr td:first-child {
+	width: 120px;
+	line-height: 15px;
+	font-weight: bold;
+}

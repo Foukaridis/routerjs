@@ -1,0 +1,94 @@
+.advancedtable.list_inner {
+    border: solid 1px #ccc;
+    min-width: 960px;
+    max-width: 1196px;
+    width: 60%;
+}
+
+.advancedtable.list_inner thead {
+    background: #aa0306;
+    background: -moz-linear-gradient(top, #aa0306 0%, #910205 44%, #6d0001 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aa0306), color-stop(44%,#910205), color-stop(100%,#6d0001));
+    background: -webkit-linear-gradient(top, #aa0306 0%,#910205 44%,#6d0001 100%);
+    background: -o-linear-gradient(top, #aa0306 0%,#910205 44%,#6d0001 100%);
+    background: -ms-linear-gradient(top, #aa0306 0%,#910205 44%,#6d0001 100%);
+    background: linear-gradient(to bottom, #aa0306 0%,#910205 44%,#6d0001 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa0306', endColorstr='#6d0001',GradientType=0 );
+    border-top: solid 1px #6d0001;
+}
+
+.advancedtable.list_inner thead th {
+    background: none;
+    text-shadow: none;
+    padding: 10px 10px;
+}
+
+.advancedtable.list_inner thead th a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.advancedtable.list_inner thead th:first-child {
+    text-align: left;
+}
+
+.advancedtable.list_inner thead th img {
+    position: relative;
+    margin-bottom: -6px;
+}
+
+.advancedtable.list_inner tbody td {
+    padding: 10px 8px;
+    border: none;
+    color: #565454;
+}
+
+.advancedtable.list_inner td.ajax {
+    padding: 3px;
+    border-radius: 2px;
+    border-left: solid 1px #ddd;
+    border-right: solid 1px #ddd;
+}
+
+.advancedtable.list_inner td.ajax:hover {
+    color: #111;
+}
+
+.advancedtable.list_inner tbody tr:nth-child(2n+1) {
+    background-color: #EEE;
+}
+
+.advancedtable.list_inner tbody td:first-child {
+    color: #565454;
+}
+
+.advancedtable.list_inner tbody td:last-child {
+    text-align: right;
+}
+
+.advancedtable:not(.list_inner) input {
+    padding: 4px;
+    font-size: 0.9em;
+    border-radius: 2px;
+}
+
+.advancedtable:not(.list_inner)  td {
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.advancedtable.list_inner tbody tr[data-inactive="true"] td {
+    color: #eee;    
+} 
+
+.advancedtable.list_inner td[colspan="9"] {
+    background-color:#fff;
+    font-weight: bold;
+    color: #222;
+    border-top: solid 1px #ccc;
+}
+
+.advancedtable.list_inner td[colspan="9"] .tableInfo {
+    float: right;
+    line-height: 20px;
+}

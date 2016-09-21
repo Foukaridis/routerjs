@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+div.filter-box {
+    width: 710px;
+    margin: 10px auto 10px auto;
+    border: #bb0000 solid 1px;
+    padding: 20px;
+	height: 20em;
+	overflow: auto;
+}
+
+div.filter-box div.split {
+    float: left;
+    width: 348px;
+}
+
+div.filter-box div.split h2 {
+	color: #565454;
+    font-family: "Arial";
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+div.filter-box div.split h2:first-child {
+	margin-top: 0px;
+}
+
+div.filter-box br.clear-both {
+	clear: both;
+}

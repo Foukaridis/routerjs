@@ -1,0 +1,212 @@
+/*
+	All style classes related to the preview in CVW.
+
+	Last change:	24/10/2012
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Copyright:		2012, Parallel Software
+*/
+
+table.list_inner tr td.data_container {
+	padding: 0;
+	height: 100px;
+}
+
+table.list_inner tr td.row_select {
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;	
+	background-color: #FFF !important;
+}
+table.list_inner tr td.row_select:first-child * {
+	background-color: #FFF;
+}
+
+
+
+table.list_inner tr td.row_select:last-child {
+	padding: 0;
+}
+
+table.list_inner tr td.row_select:last-child a {
+	background-color: #FFF;
+	margin-bottom: 5px;
+}
+
+table.list_inner tr .toggle,
+table.list_inner tr .untoggle {
+	position: absolute;
+	width: 120px;
+	height: 20px;
+	text-align: center;
+	display: none;
+	background-color: #FFF;
+	color: #264489;
+	font-size: smaller;
+	font-weight: bold;
+	line-height: 20px;
+	margin-top: -16px;
+	border: solid 1px #CCC;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	border-top: none;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+table.list_inner tr .untoggle {
+	display: block;
+}
+
+table.list_inner tr td.row_select:last-child .previewCV {
+	margin-top: 10px;
+}
+
+table.list_inner tr td.row_select:last-child .previewCV span {
+	color: #000;
+	/** I'm really sorry for this. **/
+}
+
+table.list_inner tr td.row_select div.loader {
+	background-color: #FFF;
+	font-weight: bold;
+	margin-top: 43px;
+	margin-left: 35px;
+}
+
+table.list_inner tr td.row_select div.loader img {
+	margin-right: 7px;
+	margin-bottom: -1px;
+}
+
+table.list_inner tr td.data_container table {
+	width: 100%;
+	height: 100%;
+}
+
+table.list_inner tr td.data_container table a {
+	color: #264489;
+}
+
+table.list_inner tr td.data_container table td {
+	border-right: solid 1px #D5D5D5;
+	background-color: #FFF;
+}
+
+table.list_inner tr td.data_container table td * {
+	background-color: #FFF;
+}
+
+table.list_inner tr td.data_container table td h4 {
+	font-size: inherit;
+	font-weight: 700;
+	margin-bottom: 5px;
+	color: #264489;
+	width: 100%;
+	text-align: left;
+	height: 15px;
+	border-bottom: solid 1px #DDD;
+}
+
+
+/** Basic Information **/
+table.list_inner tr td.data_container table td.basic span.spacer {
+	width: 80px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+table.list_inner tr td.data_container table td.basic span.inner_spacer {
+	width: 10px;
+	display: inline-block;
+}
+
+table.list_inner tr td.data_container table td.basic {
+	width: 33%;
+}
+
+table.list_inner tr td.data_container table td.basic .avatar {
+	max-width: 45px;
+	max-height: 45px;
+	float: right;
+}
+
+table.list_inner tr td.data_container table td.basic .avatar {
+	max-width: 35px;
+	max-height: 35px;
+	float: right;
+}
+
+/** Education **/
+
+table.list_inner tr td.data_container table td.education {
+	width: 33%;
+}
+
+table.list_inner tr td.data_container table td.education span.title {
+	width: 85%;
+	text-align: left;
+	display: inline-block;
+}
+
+table.list_inner tr td.data_container table td.education span.year {
+	width: 15%;
+	text-align: right;
+	display: inline-block;
+}
+
+table.list_inner tr td.data_container table td.education span.position {
+	width: 65%;
+	text-align: left;
+	display: inline-block;
+	
+}
+
+table.list_inner tr td.data_container table td.education span.duration {
+	width: 35%;
+	text-align: right;
+	display: inline-block;
+	
+	
+	
+}
+
+/** Employment **/
+
+table.list_inner tr td.data_container table td.employment {
+	width: 33%;
+}
+
+table.list_inner tr td.data_container table td.employment span.spacer {
+	width: 80px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+/** CV contents preview dialog **/
+div.cvPreviewDialog {
+	
+}
+
+div.cvPreviewDialog div.header {
+	width: 530px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	font-weight: 700;
+	border-bottom: solid 1px #DDD;
+	color: #264489;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+div.cvPreviewDialog div.contents {
+	min-width: 515px;
+	white-space: pre-wrap;
+	padding: 4px;
+	background-color: #EFEFEF;
+	border: solid 1px #CECECE;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}

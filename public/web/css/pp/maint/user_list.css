@@ -1,0 +1,44 @@
+.expiry-container {
+    width: 750px;
+    margin: 0 auto;
+    border: solid 1px #ddd;
+    padding: 10px 0;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 8px;
+}
+
+.expiry-container .heading {
+    padding-top: 7px;
+    float: left;
+    width: 50%;
+}
+
+.expiry-container .toggle {
+    text-align: right;
+}
+
+#expiry_toggle * {
+    font-size: 1em;    
+}
+
+.expiry-container .controls {
+    display: none;
+    border-top: solid 1px #ddd;
+    margin-top: 9px;
+    padding-top: 9px;
+}
+
+.expiry-container .controls  {
+    text-align: center;
+}
+
+.expiry-container .controls input {
+    width: 30px;
+}
+
+.expiry-container .controls button {
+    width: 35px;
+    float: right;
+    opacity: 0;
+} 

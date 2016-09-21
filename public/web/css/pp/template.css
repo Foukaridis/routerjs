@@ -1,0 +1,191 @@
+/*
+	Everything that contributes to the core layout of 
+	Placement Partner is defined here.
+
+	Last change:	22/10/2012
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Copyright:		2012, Parallel Software
+*/
+
+#placement_partner {
+    background-image: url("/pp/images/background.jpg");
+    background-repeat: repeat-x;
+}
+
+#mainContainer {
+    background-image: url("/img/back.gif");
+    background-repeat: repeat-x;
+    border: 1px solid #000080;
+    box-shadow: 0 0 6px #000080;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    min-height: 600px;
+    overflow: visible;
+    position: relative;
+    text-align: left;
+    width: 98%;
+    z-index: 1;
+}
+
+#headerPane {
+    background-image: url("/img/header_background.png");
+    background-repeat: no-repeat;
+    height: 127px;
+    width: 100%;
+}
+
+#menuPane {
+    background-image: url("/pp/images/nav_background.png");
+    background-position: center -25px;
+    background-repeat: no-repeat;
+    border-top: 1px solid #A6ACD8;
+    height: 18px;
+    padding-top: 0;
+    position: relative;
+    text-align: center;
+    top: -25px;
+    z-index: 99999;
+}
+
+
+#bread_crumbs {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#bread_crumbs h1 {
+    color: #264489;
+    font-size: larger;
+    font-weight: bold;
+	margin: 10px 0 0 0 !important;
+}
+
+#user_name {
+    color: #565454;
+    font-size: inherit;
+    margin-top:80px;
+    padding: 0px;
+    text-align: right;
+    text-decoration: none;
+	padding-right: 10px;
+}
+
+.mainContainer {
+	min-width: 960px;
+}
+
+
+ul.menu_container {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+ul.child {
+    display: none;
+}
+li.menu_element {
+    background-color: #F7FCFD;
+    border-color: #7AA8D7;
+    border-radius: 0 0 3px 3px;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    clear: none;
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin: 0 1px;
+    height: 19px;
+    min-width: 65px;
+    padding: 4px 13px;
+}
+
+li.base:hover {
+    background-color: #F7FEFF;
+    border-color: skyblue #6A5E5E #7A7A7A #888686;
+    border-style: solid;
+    border-width: 2px 1px 1px;
+    margin-top: -5px;
+    min-height: 17px;
+    padding-bottom: 4px;
+    padding-top: 7px;
+    z-index: 99 !important;
+}
+
+li.menu_element a {
+    line-height: 19px;
+    color: #264489;
+    font-size: inherit;
+    font-weight: 500;
+    display: block;
+}
+
+li.menu_element:hover {
+	cursor: pointer;
+}
+
+li.base:hover > a {
+	color: black;
+}
+
+li.base:hover ul.child {
+	display: block;
+}
+
+ul.child {
+    display: none;
+    margin-left: -12px;
+    margin-top: 23px !important;
+    position: absolute;
+}
+
+li.child {
+    background-color: #F7FEFF;
+    border-color: #778EA1 ;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    clear: both;
+    float: left;
+    min-width: 125px;
+    padding: 6px 11px 6px 12px;
+    text-align: left;
+    width: 141px;
+}
+
+li.child a {
+    color: black;
+}
+
+li.child:hover {
+    background-color: #ADD6EB; 
+    cursor: pointer;
+}
+
+li.child:last-child {
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+li.child:first-child {
+    border-top-width: 1px;
+}
+
+.session_expire_warning {
+	display: block;
+	float: right;
+	width: 250px;
+	color: #264489;
+	position: relative;
+	margin-top: 65px;
+	text-align: right;
+	padding-right: 10px;
+}

@@ -1,0 +1,331 @@
+/*
+	All style classes related to the postbox.
+
+	Last change:	22/10/2012
+	Author:			Ferdi Schmidt <ferdi@parallel.co.za>
+	Copyright:		2012, Parallel Software
+*/
+
+.highlight_info {
+    border: 1px solid #a0d1e8;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 90%;
+    margin: auto auto;
+    
+    color: #000;
+    background: #bbdaea; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JiZGFlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhMGQxZTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+');
+    background: -moz-linear-gradient(top, #bbdaea 0%, #a0d1e8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bbdaea), color-stop(100%,#a0d1e8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #bbdaea 0%,#a0d1e8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #bbdaea 0%,#a0d1e8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #bbdaea 0%,#a0d1e8 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #bbdaea 0%,#a0d1e8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbdaea', endColorstr='#a0d1e8',GradientType=0 ); /* IE6-8 */
+	
+	font-size: inherit;
+}
+
+div.cv_contents_hide .highlight_info a {
+    text-decoration: underline;
+}
+
+div.cv_contents_hide .highlight_me {
+    background-color: yellow !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div.cv_contents_hide {
+    background-color: #FFF !important;
+    display: none;
+    margin-left: -318px;
+    margin-top: -25px;
+    height: 400px;
+    padding: 28px 6px 4px 5px;
+    position: absolute;
+    width: 450px;
+    z-index: 999999 !important;
+}
+
+div.cv_contents_hide div.close {
+    position: relative;
+    top: -25px;
+}
+
+div.cv_contents_hide div.close:hover {
+}
+
+div.cv_contents_hide div.cv_contents {
+    background-color: white !important;
+    clear: none;
+    color: black;
+    float: left;
+    height: 370px;
+    max-height: 370px;
+    opacity: 1 !important;
+    overflow: auto;
+    width: 100%;
+}
+
+div.cv_content {
+    width: 100%;
+}
+
+div.cv_content pre {
+    background-color: #FFF  !important;
+    margin-top: 10px;
+    font-family: monospace !important;
+	font-size: inherit;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+} 
+
+div.cv_contents_hide div.cv_contents_narrow {
+    background-color: white !important;
+    color: black;
+    float: left;
+    height: 680px;
+    opacity: 1 !important;
+    overflow: auto;
+    width: 260px;
+	font-size: inherit;
+}
+
+div.cv_contents_hide div.cv_data {
+    display: none;
+    float: left;
+    height: 680px;
+    padding-right: 0;
+    width: 470px;
+	font-size: inherit;
+}
+
+div.cv_contents_hide h5 {
+    margin: -28px 0 10px -5px;
+    display: block;
+    width: 100%;
+    height: 17px;
+    line-height: 17px;
+    padding-left: 30px !important;
+}
+
+div.cv_contents {
+    font-family: monospace;
+    background-color: #FFF !important;
+	font-size: inherit;
+	overflow: scroll;
+    
+}
+
+div.cv_contents_narrow {
+    display: none;
+    font-family: monospace !important;
+	font-size: inherit;
+    height: 608px;
+    margin-right: 1px;
+    width: 270px;
+}
+
+div.even_more {
+    display: none;
+    float: left;
+    height: 14px;
+    left: 6px;
+    position: absolute;
+    top: 8px;
+    width: 14px;
+	border-radius: 7px;
+	background-color: #CCC !important;
+	
+	text-align: center;
+	line-height: 14px;
+	border: solid 1px #666;
+	
+	font-weight: bold;
+	color: #666 !important;
+	
+	z-index: 1001;
+}
+
+div.even_more:hover {
+	background-color: #C0C0C0;
+}
+
+div.row_toggle_button {
+    background-color: pink !important;
+    border-radius: 0 0 3px 3px;
+    clear: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 150px;
+    margin-top: -2px;
+    padding: 2px;
+    position: absolute;
+    text-align: center;
+    width: 38px;
+	opacity: 0.8;
+	z-index: 9;
+}
+
+div.row_toggle_button:hover {
+    background-color: #7AA8D7 !important;
+    opacity: 1;
+	
+}
+
+.duplicate_marker {
+    color: red !important;
+    cursor: help;
+    display: inline;
+    margin-left: 10px;
+    position: relative;
+}
+
+div.cv_container {
+    height: 680px;
+}
+
+div.cv_text {
+    background-color: #FAFAFA;
+    border-color: #A6ACD8;
+    border-style: solid;
+    border-width: 1px;
+	font-size: inherit;
+    height: 667px;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    text-align: left;
+    width: 500px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+div.cv_data {
+    height: 700px;
+    width: 480px;
+}
+
+
+
+div.cv_data iframe {
+    height: 100%;
+	display: inline-block;
+    min-width: 483px;
+    width: 483px;
+	z-index: 1;
+}
+
+div.cv_links {
+    border: 1px solid #000000;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10px;
+    width: 400px;
+}
+
+a.postbox_link:link, a.postbox_link:visited, a.postbox_link:hover, a.postbox_link:active, span.postbox_link_none {
+    color: #666699;
+	font-size: inherit;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.postbox_name:link, a.postbox_name:visited, a.postbox_name:hover, a.postbox_name:active {
+    color: #666699;
+	font-size: large;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.detail_row {
+}
+
+.detail_row > td {
+    padding: 10px 0;
+}
+
+.detail_row ul {
+    margin: 0 0 5px 25px;
+    padding: 1px;
+}
+
+.detail_row li {
+    list-style: circle outside none;
+}
+
+div.row_open_button {
+    display: none;
+}
+
+div.row_open_button:hover {
+    background-color: #8DD3EF !important;
+}
+
+tr.list_a:hover div.row_open_button, tr.list_b:hover div.row_open_button {
+    background-color: lightBlue;
+    border-radius: 1px 0 3px 3px;
+    color: white;
+    display: block;
+    font-weight: bold;
+    padding: 1px;
+    text-align: center;
+    width: 65px;
+    z-index: 99;
+    float: right;
+    position:absolute;
+    margin-left: 125px;
+    margin-top: -15px;
+    opacity: 0.7;
+}
+
+tr.detail_row:hover div.row_open_button, tr.detail_row:hover div.row_open_button {
+    display: none;
+}
+
+.preloader {
+    background-image: url("/img/wi_candidates_preloader.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+ul.contact_details_list {
+    margin-left: 0;
+}
+
+ul.contact_details_list > li {
+    list-style: none outside none;
+   margin-left: 0;
+}
+
+ul.contact_details_list > li > ul {
+    margin-left: 20px;
+}
+
+ul.contact_details_list > li > ul > li {
+    list-style: disc outside none;
+    margin-left: 0;
+}
+.gender {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+}
+.male {
+    color: blue;
+}
+
+.female {
+    color: red;
+}
